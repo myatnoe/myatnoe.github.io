@@ -7,9 +7,9 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    background-color: #f2f1ef;
 }
 
 html {
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #df3a42;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #a90008;
 }
 
 .light {
@@ -63,10 +63,9 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #a90008;
 }
 
 .navbar-custom .navbar-brand {
@@ -115,7 +114,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: #df3a42;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -135,8 +134,7 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #A90008;
     }
 }
 
@@ -146,9 +144,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #000;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background-color: #f2f1ef;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -169,8 +167,12 @@ a:focus {
 }
 
 .img-circle{
-  width: 150px;
+  width: 130px;
   margin: 15px;
+}
+
+.social-icon {
+  padding: 5px;
 }
 
 @media(min-width:768px) {
@@ -266,16 +268,10 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.projects-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    color: #000;
 }
 
 #map {
@@ -289,7 +285,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .projects-section {
         padding: 100px 0;
     }
 
