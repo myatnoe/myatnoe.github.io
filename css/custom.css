@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #a90008;
+    color: #903a3d;
 }
 
 .light {
@@ -65,7 +65,7 @@ a:focus {
     margin-bottom: 0;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #a90008;
+    background-color: #903a3d;
 }
 
 .navbar-custom .navbar-brand {
@@ -134,7 +134,7 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        background: #A90008;
+        background: #903a3d;
     }
 }
 
@@ -167,7 +167,7 @@ a:focus {
 }
 
 .img-circle{
-  width: 130px;
+  width: 100px;
   margin: 15px;
 }
 
@@ -188,6 +188,14 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
+
+    .img-circle{
+      width: 130px;
+      margin: 15px;
+    }
+}
+.btn {
+  color: #fff;
 }
 
 .btn-circle {
@@ -212,14 +220,14 @@ a:focus {
     background: rgba(255,255,255,.1);
 }
 
-.btn-circle i.animated {
+.btn i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
 }
 
-.btn-circle:hover i.animated {
+.btn:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
